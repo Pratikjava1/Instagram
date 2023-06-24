@@ -1,0 +1,83 @@
+.logoforpost{
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.postmodal{
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    border:0;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    
+}
+
+.postmodal_overlay{
+    background-color: rgb(255, 255, 255/93%);
+}
+
+.modelrightsection{
+   color: black;
+   flex:1;
+}
+
+.modelleftsection{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex: 1; 
+}
+
+.modalimg{
+    width: 100%;
+    height: 500px;
+    margin: 12px;
+    
+}
+
+.profileicons{
+    margin-left: 4px;
+}
+
+.commentsection{
+    height: 60%;
+    overflow: auto;
+}
+
+.commentsectionbottom{
+    display: flex;
+    flex-direction: column;
+    height: 18%;
+    margin-right: 6px;
+    
+}
+
+.commentsectionbottom>span{
+    margin-left: 10px;
+}
+
+.commentsectionbottomchat{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    margin-right: 6px;
+}
+
+.commentsectionbottomchat>input{
+    outline: none;
+    border:1px gray solid;
+    margin-left: 10px;
+    margin-right: auto;
+    background: none;
+    border-radius: 14px;
+}
+
+.blur{
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+}

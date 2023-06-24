@@ -1,0 +1,59 @@
+.mainSignupPage{
+    background-color: hwb(0 100% 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    flex-direction: column;
+    overflow: auto;
+   
+   
+}
+
+
+.signupBox{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 25vw;
+    margin-top: 10px;
+    border: 1px #dbd8cf solid;
+}
+
+form>input{
+    outline: none;
+    border: none;
+    background-color: rgb(236, 229, 229);
+    margin: 6px;
+    width: 80%;
+    height: 2vh;
+    padding: 10px;
+    
+}
+
+form>button{
+    outline:none;
+    border: none;
+    background-color: rgb(20, 221, 235);
+    width: 85%;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.logo{
+    width: 150px;
+    margin: 20px;
+
+}
+.loginMsg{
+    margin-top: 5px;
+    width: 25vw;
+    height: 10vh;
+    border:1px #dbd8cf solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

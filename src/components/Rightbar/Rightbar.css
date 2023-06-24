@@ -1,0 +1,17 @@
+.mainrightbar{
+   
+    background-color: black;
+    height: 100vh;
+    overflow: auto;
+    color:white;
+
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+   
+    
+}
